@@ -1,0 +1,253 @@
+{
+  "ministry": "MINISTRY OF HOUSING AND URBAN DEVELOPMENT",
+  "state_researched": "Imo State",
+  "recommendations": {
+    "home_page": {
+      "banner": {
+        "description": "A banner of the ministry's crest and motto, reflecting commitment to affordable and inclusive housing."
+      },
+      "welcome_message": {
+        "from": "Commissioner",
+        "content": "Welcome to the Ministry of Housing and Urban Development, Imo State. Under the leadership of Commissioner Nicholas Anayo Amaefule, we are dedicated to urban renewal, mass housing, and sustainable development in alignment with our state’s vision."
+      },
+      "priority_areas": [
+        "Mass Housing Development",
+        "Urban Renewal & Slum Upgrading",
+        "Mortgage Facilitation & Housing Finance",
+        "Public–Private Partnerships (PPP)",
+        "Rural Housing Solutions",
+        "Housing Policy Reform & Regulatory Enforcement"
+      ],
+      "permanent_secretary": {
+        "title": "Arc.",
+        "name": "Name Placeholder"
+      },
+      "commissioner_profile": {
+        "name": "Nicholas Anayo Amaefule",
+        "appointment_date": "2025 (Exact date not public)",
+        "title": "Commissioner for Lands, Survey, Housing, and Urban Development, Imo State",
+        "background": "Appointed as part of the current Executive Council—leads housing policy and urban development initiatives.",
+        "key_achievements": [
+          "Oversaw repeal and modernization of the Housing Corporation Edict 1976",
+          "Coordinated mass housing schemes in key zones (Umuoma Nekede, Anara, Mgbidi)",
+          "Engaged with professional bodies, including NIOB, to strengthen building standards and collaboration"
+        ],
+        "commitment": "Delivering affordable housing, transparency, and institutional reform."
+      }
+    },
+    "about_us": {
+      "mission_statement": "To deliver affordable and sustainable housing solutions through strategic partnerships, policy reform, and urban regeneration.",
+      "vision_statement": "Creating housing-secure, inclusive, and modern communities across Imo State.",
+      "organizational_chart": {
+        "honourable_commissioner": "Chief policy maker and head of ministry operations",
+        "permanent_secretary": "Executive administrator overseeing internal department coordination",
+        "directors": [
+          "Director, Housing Projects & Development",
+          "Director, Urban Renewal",
+          "Director, Rural Housing",
+          "Director, Planning & Strategy",
+          "Director, Legal & Regulatory Services",
+          "Director, Finance & Accounts",
+          "Director, Public Relations & Engagement",
+          "Director, Procurement & Supplies"
+        ],
+        "support_staff": [
+          "Deputy/Assistant Directors",
+          "Project Engineers, Site Supervisors, Zonal Coordinators",
+          "Administrative & Support Personnel"
+        ]
+      },
+      "key_departments": {
+        "Housing Projects & Development": "Oversees design and execution of housing estates",
+        "Urban Renewal Department": "Leads slum upgrading and redevelopment programs",
+        "Rural Housing Department": "Focuses on housing in underserved rural areas",
+        "Planning & Strategy Department": "Conducts research and formulates housing policies",
+        "Legal & Regulatory Services Department": "Ensures compliance with building codes and regulations",
+        "Finance & Accounts Department": "Manages budgets, revenue, and financial operations",
+        "Public Relations & Engagement": "Handles stakeholder outreach and communications",
+        "Procurement & Supplies Department": "Manages transparent sourcing of materials and services"
+      }
+    },
+    "departments_agencies": {
+      "assurance_speech": "Every department under this Ministry remains devoted to transparency, professionalism, and delivering housing solutions that meet the needs of all Imolites.",
+      "departments": [
+        {
+          "name": "Department of Housing Development",
+          "role": "Initiates and oversees housing projects"
+        },
+        {
+          "name": "Department of Urban Renewal",
+          "role": "Transforms slums into habitable communities"
+        },
+        {
+          "name": "Department of Estate Management",
+          "role": "Manages allocations and maintenance of government estates"
+        },
+        {
+          "name": "Department of Building Regulations & Control",
+          "role": "Enforces structural integrity and building code compliance"
+        },
+        {
+          "name": "Department of Mortgage & Home Ownership Schemes",
+          "role": "Facilitates housing finance and mortgage access"
+        },
+        {
+          "name": "Department of PPP in Housing",
+          "role": "Manages housing collaborations with private developers"
+        },
+        {
+          "name": "Department of Land Allocation & Documentation",
+          "role": "Handles land titling and allocation processes"
+        },
+        {
+          "name": "Department of Planning, Research & Statistics",
+          "role": "Generates data to inform strategic housing planning"
+        },
+        {
+          "name": "Department of Finance & Accounts",
+          "role": "Oversees budgeting and resource allocation"
+        },
+        {
+          "name": "Department of Admin & HR",
+          "role": "Coordinates staff, recruitment, and internal affairs"
+        },
+        {
+          "name": "Department of Legal Services",
+          "role": "Provides legal advisory on housing and land issues"
+        }
+      ],
+      "agencies": [
+        "Imo State Housing Corporation (MD: Raymond Ucheoma)",
+        "Ministry’s Mass Housing Committees (Umuoma Nekede, Anara, Mgbidi)",
+        "Collaborations with NIOB and Regulatory Bodies"
+      ],
+      "partners": [
+        "Nigerian Institute of Building (NIOB)",
+        "Imo State House of Assembly (Housing Legislation)",
+        "State and Local Governments",
+        "Federal Agencies on Housing Initiatives"
+      ]
+    },
+    "projects": {
+      "description": "A dynamic project list with images and updates will showcase ongoing and completed projects across Imo State.",
+      "ongoing_completed_projects": [
+        {
+          "name": "Mass Housing Schemes (Umuoma Nekede, Anara, Mgbidi)",
+          "description": "Large-scale housing development coordinated by Minister Love Ineh's committee."
+        },
+        {
+          "name": "Policy Reform for Housing Sector",
+          "description": "Modernization of the Housing Corporation Act to enable PPPs and efficient development."
+        }
+      ],
+      "strategic_goals": [
+        "Expand affordable housing availability",
+        "Enable private sector investment in housing",
+        "Strengthen regulatory standards in construction",
+        "Upgrade slum and informal settlements",
+        "Facilitate housing finance solutions",
+        "Support rural housing programs",
+        "Improve institutional capacity for housing planning"
+      ]
+    },
+    "contact_us": {
+      "visual_element": "Image of the ministry’s main building or administrative headquarters.",
+      "contact_sections": {
+        "primary_contact": {
+          "phone": "Not publicly listed",
+          "email": "Not publicly listed",
+          "address": "Ministry of Housing and Urban Development, Owerri, Imo State, Nigeria."
+        },
+        "contact_form": {
+          "title": "SEND US A MESSAGE",
+          "fields": ["NAME", "EMAIL", "PHONE", "SUBJECT", "MESSAGE"],
+          "action": "Send Message"
+        },
+        "location_map": "Embed Google Maps link to the Ministry’s location in Owerri"
+      }
+    },
+    "news": {
+      "newsletter_signup": {
+        "statement": "Sign up to stay informed about housing developments and ministry news.",
+        "signup_form": {
+          "elements": "Email input field and subscribe button"
+        }
+      }
+    },
+    "services": {
+      "description": "This page outlines services offered by the Ministry of Housing and Urban Development in Imo State.",
+      "core_services": [
+        {
+          "name": "Mass Housing Enrollment & Allocation",
+          "details": [
+            "Guidance on scheme eligibility and application",
+            "Online application support (where available)",
+            "Application FAQs"
+          ]
+        },
+        {
+          "name": "Land & Plot Allocation",
+          "details": [
+            "Guidance for land allocation in government layouts",
+            "Support with titles, plans, and permits"
+          ]
+        },
+        {
+          "name": "Public–Private Partnership Facilitation",
+          "details": [
+            "Developer engagement platforms",
+            "Expression of interest submission guidelines"
+          ]
+        },
+        {
+          "name": "Building Plan Review & Approval",
+          "details": [
+            "Submission guidelines for architectural plans",
+            "Compliance reviews and approval timelines"
+          ]
+        },
+        {
+          "name": "Urban Renewal Support",
+          "details": [
+            "Relocation and resettlement support for redevelopment",
+            "Social welfare services during redevelopment phases"
+          ]
+        },
+        {
+          "name": "Rural Housing Access",
+          "details": [
+            "Programs for low-cost housing in rural communities",
+            "Cooperative and community engagement"
+          ]
+        },
+        {
+          "name": "Housing Finance Services",
+          "details": [
+            "Information on mortgage partners and schemes",
+            "Support for first-time homeowners and civil servants"
+          ]
+        },
+        {
+          "name": "Dispute Resolution & Legal Aid",
+          "details": [
+            "Mediation for housing disputes",
+            "Tenancy and allocation legal support"
+          ]
+        },
+        {
+          "name": "Housing Data & Resource Hub",
+          "details": [
+            "Access to policy documents, planning resources, and data"
+          ]
+        },
+        {
+          "name": "Feedback & Complaints Desk",
+          "details": [
+            "Submit concerns or service requests",
+            "Response tracking and escalation process"
+          ]
+        }
+      ]
+    }
+  }
+}
