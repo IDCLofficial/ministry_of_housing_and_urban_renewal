@@ -8,58 +8,58 @@ export default function DepartmentsPage() {
 
   const hero = {
     title: 'Our Structure',
-    subtitle: 'Each department advances affordable housing delivery, urban renewal, and good governance across Imo State.',
+    subtitle: 'Each department plays a unique role in advancing justice, upholding the rule of law, and supporting good governance across Imo State.',
   } as const;
 
   const departments = [
     {
-      name: 'Housing Projects & Development',
-      title: 'Housing Projects & Development',
-      imageSrc: '/housing.jpg',
+      name: 'Public Prosecution',
+      title: 'Public Prosecution',
+      imageSrc: '/prosecution.webp',
       body:
-        'Designs and supervises the construction of housing estates across the state.',
+        'Prosecution of criminal cases in all courts and issuance of legal advice on criminal investigations.',
     },
     {
-      name: 'Urban Renewal Department',
-      title: 'Urban Renewal Department',
-      imageSrc: '/municipal.jpg',
+      name: 'Civil Litigation',
+      title: 'Civil Litigation',
+      imageSrc: '/lawyer.jpg',
       body:
-        'Plans and implements urban regeneration and slum upgrade programs.',
+        'Representation of the state in civil litigation and protection of government legal interests.',
     },
     {
-      name: 'Estate Management',
-      title: 'Estate Management',
-      imageSrc: '/housing2.png',
+      name: 'Legal Drafting/Parliamentary Counsel',
+      title: 'Legal Drafting/Parliamentary Counsel',
+      imageSrc: '/imo_judiciary.jpeg',
       body:
-        'Manages government-owned estates, allocations, rent collection, and facility maintenance.',
+        'Drafting of executive bills and legislative instruments; legislative support to the House of Assembly.',
     },
     {
-      name: 'Building Regulations & Control',
-      title: 'Building Regulations & Control',
-      imageSrc: '/ocda.png',
+      name: 'Administration & Finance',
+      title: 'Administration & Finance',
+      imageSrc: '/finance.jpg',
       body:
-        'Enforces building codes, conducts inspections, and ensures structural integrity and safety.',
+        'Administration, finance, procurement, HR management and resource allocation for Ministry-wide effectiveness.',
     },
     {
-      name: 'Mortgage & Home Ownership Schemes',
-      title: 'Mortgage & Home Ownership Schemes',
-      imageSrc: '/mortgage_home.jpg',
+      name: 'Planning & Research',
+      title: 'Planning & Research',
+      imageSrc: '/planning.jpeg',
       body:
-        'Facilitates access to housing finance in collaboration with mortgage institutions and cooperatives.',
+        'Policy analysis, data systems, monitoring and evaluation, and coordination of law reporting.',
     },
     {
-      name: 'Land Allocation & Documentation',
-      title: 'Land Allocation & Documentation',
-      imageSrc: '/land.jpg',
+      name: "Citizens' Rights / ADR",
+      title: "Citizens' Rights / ADR",
+      imageSrc: '/ADHR.jpeg',
       body:
-        'Handles processing and allocation of lands, issuance of land titles, and documentation.',
+        'Human rights desk, public legal education and rights awareness, and Alternative Dispute Resolution (mediation, conciliation, arbitration).',
     },
   ] as const;
 
   const cta = {
-    heading: 'Partner With Us To Deliver Decent Housing In Imo',
+    heading: 'Partner With Us To Uphold Justice In Imo',
     subtext:
-      'Support our mission to provide affordable, inclusive, and sustainable housing for all residents of Imo State.',
+      'Support our mission to strengthen the rule of law and ensure equitable access to justice for all citizens of Imo State.',
     cta: { text: 'Contact Us', href: '/contact' },
   } as const;
 
