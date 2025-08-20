@@ -29,12 +29,12 @@ const ContactItem = ({ icon, text }: { icon: React.ReactNode; text: string }) =>
 export default function Footer() {
   // Internal content (can be swapped later to fetch from CMS)
   const logo = '/logo.png';
-  const ministryName = 'Ministry of Justice'
-  const description = 'To ensure access to justice, uphold the rule of law, and promote fairness and equity for all citizens of Imo State through effective legal services and good governance.';
+  const ministryName = 'Ministry of Housing and Urban Development';
+  const description = 'To deliver affordable and sustainable housing solutions through strategic partnerships, policy reform, and urban regeneration.';
   const contactInfo: ContactInfo[] = [
-    { icon: <FiMapPin className="h-5 w-5" />, text: 'Block Ten, Imo State Secretariat, Port Harcourt Road, PMB 1145, Owerri, Imo State, Nigeria' },
-    { icon: <FiMail className="h-5 w-5" />, text: 'contact@moj.jg.gov.ng' },
-    { icon: <FiPhone className="h-5 w-5" />, text: '+234 704 725 4728 / +234 803 574 4810 (SMS/WhatsApp: +234 808 446 1826)' },
+    { icon: <FiMapPin className="h-5 w-5" />, text: 'Ministry of Housing and Urban Development, Owerri, Imo State, Nigeria.' },
+    { icon: <FiMail className="h-5 w-5" />, text: 'Email: Not publicly listed' },
+    { icon: <FiPhone className="h-5 w-5" />, text: 'Phone: Not publicly listed' },
   ];
   const columns: FooterColumn[] = [
     { title: 'About', links: [
@@ -58,7 +58,7 @@ export default function Footer() {
     { name: 'Twitter', href: '#', icon: <FiTwitter className="h-5 w-5" /> },
     { name: 'LinkedIn', href: '#', icon: <FiLinkedin className="h-5 w-5" /> },
   ];
-  const copyright = '© 2025 Imo State Ministry of Justice. All rights reserved';
+  const copyright = '© 2025 Imo State Ministry of Housing and Urban Development. All rights reserved';
   return (
     <footer className="bg-[#06163A] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
