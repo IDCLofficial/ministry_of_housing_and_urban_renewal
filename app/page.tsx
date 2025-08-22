@@ -128,7 +128,7 @@ const departmentsSplitData = {
         'Facilitates home financing options and interfaces with mortgage institutions.',
     },
   ],
-  cta: { text: 'See All Departments', href: '#departments' },
+  cta: { text: 'See All Departments', href: '/departments' },
   imageSrc: '/housing2.png',
 } as const;
 

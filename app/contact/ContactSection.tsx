@@ -43,7 +43,7 @@ export default function ContactSection() {
 
               <div className="mt-8 space-y-6">
                 <InfoRow icon={<span>✉️</span>}>
-                  Not publicly listed
+                  info@minofhousing.im.gov
                 </InfoRow>
                 <InfoRow icon={<span>🏛️</span>}>
                   Ministry of Housing and Urban Development, Owerri, Imo State, Nigeria.
