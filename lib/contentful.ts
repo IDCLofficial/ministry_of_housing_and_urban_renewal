@@ -151,7 +151,7 @@ class ContentfulService {
     }
   }
 
-  async getMediaByMinistryId(id: string, page: number = 1): Promise<Media | null> {
+  async getMediaByMinistryId(id: string, page: number = 1): Promise<{ items: Media[]; total: number } | null> {
     try {
       const response = await client.getEntries({
         content_type: 'media',
@@ -162,18 +162,10 @@ class ContentfulService {
         skip: (page - 1) * 10,
       });
 
-      const result = response.items.map((i) => {
-        return {
-          title: i.fields.title,
-          img: i.fields.img,
-          isVideo: i.fields.isVideo,
-          ministry: i.fields.ministry,
-          id: i.sys.id,
-          ministryId: i.fields.ministry,
-          i
-        }
-      })
-      return response.items as unknown as Media || null;
+      return {
+        items: response.items as unknown as Media[],
+        total: response.total,
+      };
     } catch (error) {
       console.error('Error fetching media by ministry id:', error);
       return null;

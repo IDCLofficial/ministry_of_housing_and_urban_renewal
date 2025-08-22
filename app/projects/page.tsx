@@ -12,7 +12,7 @@ type Stat = { value: string; label: string };
 const stats: Stat[] = [
   { value: '6', label: 'Priority Areas' }, // matches home_page.priority_areas (6)
   { value: '7', label: 'Strategic Goals' }, // matches projects.strategic_goals (7)
-  { value: '2', label: 'Ongoing & Completed Projects' }, // matches projects.ongoing_completed_projects (2)
+  // { value: '2', label: 'Ongoing & Completed Projects' }, // matches projects.ongoing_completed_projects (2)
   { value: '3', label: 'Mass Housing Zones' }, // Umuoma Nekede, Anara, Mgbidi (3)
 ];
 
@@ -104,7 +104,7 @@ function HeroSection({ title, subtitle, children }: { title: string; subtitle: s
 function StatsSection({ stats }: { stats: Stat[] }) {
   return (
     <div className="bg-white border-t border-slate-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-2 sm:grid-cols-4 gap-6">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-8 flex items-center justify-center gap-24">
         {stats.map((s) => (
           <div key={s.label} className="text-center">
             <div className="text-[22px] sm:text-2xl font-semibold text-slate-900">{s.value}</div>

@@ -29,7 +29,7 @@ export default function DepartmentsPage() {
     {
       name: 'Rural Housing Department',
       title: 'Rural Housing Department',
-      imageSrc: '/No-Image-Placeholder.svg',
+      imageSrc: '/ruralDev.jpg',
       body:
         'Focuses on housing in underserved rural areas',
     },
@@ -43,7 +43,7 @@ export default function DepartmentsPage() {
     {
       name: 'Legal & Regulatory Services Department',
       title: 'Legal & Regulatory Services Department',
-      imageSrc: '/lawyer.jpg',
+      imageSrc: '/mortgage_home.jpg',
       body:
         'Ensures compliance with building codes and regulations',
     },
@@ -53,21 +53,7 @@ export default function DepartmentsPage() {
       imageSrc: '/finance.jpeg',
       body:
         'Manages budgets, revenue, and financial operations',
-    },
-    {
-      name: 'Public Relations & Engagement',
-      title: 'Public Relations & Engagement',
-      imageSrc: '/No-Image-Placeholder.svg',
-      body:
-        'Handles stakeholder outreach and communications',
-    },
-    {
-      name: 'Procurement & Supplies Department',
-      title: 'Procurement & Supplies Department',
-      imageSrc: '/No-Image-Placeholder.svg',
-      body:
-        'Manages transparent sourcing of materials and services',
-    },
+    }
   ] as const;
 
   const cta = {

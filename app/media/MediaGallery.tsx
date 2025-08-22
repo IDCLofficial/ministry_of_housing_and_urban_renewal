@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import { Media } from '@/lib/types';
+import MediaCard from './MediaCard';
 
 export default function MediaGallery({ items }: { items: Media[] }) {
   const [activeIndex, setActiveIndex] = React.useState<number | null>(null);
@@ -51,18 +52,21 @@ export default function MediaGallery({ items }: { items: Media[] }) {
   return (
     <section className="bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {items.map((it, idx) => (
-            <figure key={it.sys.id} className="rounded-xl overflow-hidden group cursor-zoom-in" onClick={() => open(idx)}>
-              <img
-                src={`https:${it.fields.img.fields.file.url}`}
-                alt={it.fields.title || 'Media item'}
-                className="w-full h-[260px] sm:h-[360px] lg:h-[420px] object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+        {items && items.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {items.map((it, idx) => (
+              <MediaCard
+                key={it.sys.id}
+                item={it}
+                onClick={() => open(idx)}
               />
-              <figcaption className="mt-2 text-sm text-slate-600">{it.fields.title}</figcaption>
-            </figure>
-          ))}
-        </div>
+            ))}
+          </div>
+        ) : (
+          <div className="py-16 text-center">
+            <p className="text-gray-500 text-lg">No media available at the moment.</p>
+          </div>
+        )}
       </div>
 
       {activeIndex !== null && (

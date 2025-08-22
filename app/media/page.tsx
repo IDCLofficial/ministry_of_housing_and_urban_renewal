@@ -6,6 +6,7 @@ import MediaHero from './MediaHero';
 import MediaGallery from './MediaGallery';
 import getMedia from './media';
 import { Media } from '@/lib/types';
+import Link from 'next/link';
 
 
 const cta = {
@@ -23,9 +24,14 @@ const languages = [
 ];
 const currentLanguage = 'en';
 
-export default async function MediaPage() {
+export default async function MediaPage({ searchParams }: { searchParams?: { page?: string } }) {
 
-  const media = await getMedia();
+  const page = Number(searchParams?.page || 1);
+  const res = await getMedia(page);
+  const items = (res?.items ?? []) as unknown as Media[];
+  const total = res?.total ?? 0;
+  const pageSize = 10;
+  const totalPages = Math.max(1, Math.ceil(total / pageSize));
 
   // const items = [
   //   {
@@ -63,7 +69,28 @@ export default async function MediaPage() {
 
       <main className="flex-grow">
         <MediaHero />
-        <MediaGallery items={media as unknown as Media[]} />
+        <MediaGallery items={items} />
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 flex items-center justify-center gap-3">
+            <Link
+              aria-disabled={page <= 1}
+              className={`px-3 py-2 rounded border border-slate-300 text-slate-700 ${page <= 1 ? 'pointer-events-none opacity-50' : ''}`}
+              href={`?page=${Math.max(1, page - 1)}`}
+            >
+              Previous
+            </Link>
+            <span className="text-sm text-slate-600">Page {page} of {totalPages}</span>
+            <Link
+              aria-disabled={page >= totalPages}
+              className={`px-3 py-2 rounded border border-slate-300 text-slate-700 ${page >= totalPages ? 'pointer-events-none opacity-50' : ''}`}
+              href={`?page=${Math.min(totalPages, page + 1)}`}
+            >
+              Next
+            </Link>
+          </div>
+        )}
       </main>
 
       <CtaGradientBlock heading={cta.heading} subtext={cta.subtext} cta={cta.cta} />

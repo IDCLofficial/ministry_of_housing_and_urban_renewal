@@ -10,7 +10,7 @@ export default function CtaGradientBlock({ heading, subtext, cta }: CtaGradientB
   return (
     <section className="relative overflow-hidden">
       {/* Gradient background matching Figma look */}
-      <div className="bg-gradient-to-br from-emerald-700 via-blue-700 to-indigo-900">
+      <div className="bg-gradient-to-b from-[#06163A] via-[#06163A] to-[#fff]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20 text-center text-white">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold">{heading}</h2>
           <p className="mt-3 text-white/85 max-w-3xl mx-auto">{subtext}</p>

@@ -28,10 +28,9 @@ const heroData = {
 const featuredPartnersData = {
   title: 'Our Partners',
   partners: [
-    { name: 'Nigerian Institute of Building (NIOB)', logoText: 'Logo' },
-    { name: 'Imo State House of Assembly (Housing Legislation)', logoText: 'Logo' },
-    { name: 'State and Local Governments', logoText: 'Logo' },
-    { name: 'Federal Agencies on Housing Initiatives', logoText: 'Logo' },
+    { name: 'Nigerian Institute of Building (NIOB)', imgSrc: '/partners/NIOB.jpeg', alt: 'NIOB' },
+    { name: 'Imo State House of Assembly (Housing Legislation)', imgSrc: '/partners/house_of_assembly.webp', alt: 'Imo State House of Assembly' },
+    { name: 'Federal Agencies on Housing Initiatives', imgSrc: '/partners/fed_housing.jpeg', alt: 'Federal Agencies on Housing Initiatives' },
   ],
 } as const;
 
