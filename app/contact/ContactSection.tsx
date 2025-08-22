@@ -57,10 +57,10 @@ export default function ContactSection() {
             {/* Right: Form */}
             <div className="p-6 sm:p-10 bg-white">
               <form className="grid grid-cols-1 gap-4" onSubmit={(e)=>onSubmit(e)} aria-busy={loading}>
-                <input className="h-11 rounded-md border border-slate-200 px-3 outline-none focus:ring-2 focus:ring-slate-300" placeholder="Full Name" />
-                <input className="h-11 rounded-md border border-slate-200 px-3 outline-none focus:ring-2 focus:ring-slate-300" placeholder="Email Address" type="email" />
-                <input className="h-11 rounded-md border border-slate-200 px-3 outline-none focus:ring-2 focus:ring-slate-300" placeholder="Subject" />
-                <textarea className="min-h-[120px] rounded-md border border-slate-200 px-3 py-2 outline-none focus:ring-2 focus:ring-slate-300" placeholder="Your Message" />
+                <input className="h-11 rounded-md border border-slate-200 px-3 outline-none focus:ring-2 focus:ring-slate-300" placeholder="Full Name" required/>
+                <input className="h-11 rounded-md border border-slate-200 px-3 outline-none focus:ring-2 focus:ring-slate-300" placeholder="Email Address" type="email" required/>
+                <input className="h-11 rounded-md border border-slate-200 px-3 outline-none focus:ring-2 focus:ring-slate-300" placeholder="Subject" required/>
+                <textarea className="min-h-[120px] rounded-md border border-slate-200 px-3 py-2 outline-none focus:ring-2 focus:ring-slate-300" placeholder="Your Message" required/>
                 <button
                   type="submit"
                   disabled={loading}
