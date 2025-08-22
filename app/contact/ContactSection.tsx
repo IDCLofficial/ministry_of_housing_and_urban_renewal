@@ -49,7 +49,7 @@ export default function ContactSection() {
                   Ministry of Housing and Urban Development, Owerri, Imo State, Nigeria.
                 </InfoRow>
                 <InfoRow icon={<span>📞</span>}>
-                  Not publicly listed
+                  08032331311
                 </InfoRow>
               </div>
             </div>
