@@ -24,9 +24,10 @@ const languages = [
 ];
 const currentLanguage = 'en';
 
-export default async function MediaPage({ searchParams }: { searchParams?: { page?: string } }) {
+export default async function MediaPage({ searchParams }: { searchParams?: Promise<{ page?: string }> }) {
 
-  const page = Number(searchParams?.page || 1);
+  const sp = await searchParams;
+  const page = Number(sp?.page || 1);
   const res = await getMedia(page);
   const items = (res?.items ?? []) as unknown as Media[];
   const total = res?.total ?? 0;
