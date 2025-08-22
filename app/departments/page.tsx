@@ -13,46 +13,60 @@ export default function DepartmentsPage() {
 
   const departments = [
     {
-      name: 'Public Prosecution',
-      title: 'Public Prosecution',
-      imageSrc: '/prosecution.webp',
+      name: 'Housing Projects & Development',
+      title: 'Housing Projects & Development',
+      imageSrc: '/housing.jpg',
       body:
-        'Prosecution of criminal cases in all courts and issuance of legal advice on criminal investigations.',
+        'Oversees design and execution of housing estates',
     },
     {
-      name: 'Civil Litigation',
-      title: 'Civil Litigation',
-      imageSrc: '/lawyer.jpg',
+      name: 'Urban Renewal Department',
+      title: 'Urban Renewal Department',
+      imageSrc: '/municipal.jpg',
       body:
-        'Representation of the state in civil litigation and protection of government legal interests.',
+        'Leads slum upgrading and redevelopment programs',
     },
     {
-      name: 'Legal Drafting/Parliamentary Counsel',
-      title: 'Legal Drafting/Parliamentary Counsel',
-      imageSrc: '/imo_judiciary.jpeg',
+      name: 'Rural Housing Department',
+      title: 'Rural Housing Department',
+      imageSrc: '/No-Image-Placeholder.svg',
       body:
-        'Drafting of executive bills and legislative instruments; legislative support to the House of Assembly.',
+        'Focuses on housing in underserved rural areas',
     },
     {
-      name: 'Administration & Finance',
-      title: 'Administration & Finance',
-      imageSrc: '/finance.jpg',
-      body:
-        'Administration, finance, procurement, HR management and resource allocation for Ministry-wide effectiveness.',
-    },
-    {
-      name: 'Planning & Research',
-      title: 'Planning & Research',
+      name: 'Planning & Strategy Department',
+      title: 'Planning & Strategy Department',
       imageSrc: '/planning.jpeg',
       body:
-        'Policy analysis, data systems, monitoring and evaluation, and coordination of law reporting.',
+        'Conducts research and formulates housing policies',
     },
     {
-      name: "Citizens' Rights / ADR",
-      title: "Citizens' Rights / ADR",
-      imageSrc: '/ADHR.jpeg',
+      name: 'Legal & Regulatory Services Department',
+      title: 'Legal & Regulatory Services Department',
+      imageSrc: '/lawyer.jpg',
       body:
-        'Human rights desk, public legal education and rights awareness, and Alternative Dispute Resolution (mediation, conciliation, arbitration).',
+        'Ensures compliance with building codes and regulations',
+    },
+    {
+      name: 'Finance & Accounts Department',
+      title: 'Finance & Accounts Department',
+      imageSrc: '/finance.jpeg',
+      body:
+        'Manages budgets, revenue, and financial operations',
+    },
+    {
+      name: 'Public Relations & Engagement',
+      title: 'Public Relations & Engagement',
+      imageSrc: '/No-Image-Placeholder.svg',
+      body:
+        'Handles stakeholder outreach and communications',
+    },
+    {
+      name: 'Procurement & Supplies Department',
+      title: 'Procurement & Supplies Department',
+      imageSrc: '/No-Image-Placeholder.svg',
+      body:
+        'Manages transparent sourcing of materials and services',
     },
   ] as const;
 
