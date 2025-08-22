@@ -33,8 +33,8 @@ export default function Footer() {
   const description = 'To deliver affordable and sustainable housing solutions through strategic partnerships, policy reform, and urban regeneration.';
   const contactInfo: ContactInfo[] = [
     { icon: <FiMapPin className="h-5 w-5" />, text: 'Ministry of Housing and Urban Development, Owerri, Imo State, Nigeria.' },
-    { icon: <FiMail className="h-5 w-5" />, text: 'Email: Not publicly listed' },
-    { icon: <FiPhone className="h-5 w-5" />, text: 'Phone: Not publicly listed' },
+    { icon: <FiMail className="h-5 w-5" />, text: 'Email: info@minofhousing.im.gov' },
+    { icon: <FiPhone className="h-5 w-5" />, text: 'Phone: 08032331311' },
   ];
   const columns: FooterColumn[] = [
     { title: 'About', links: [
