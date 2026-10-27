@@ -7,6 +7,14 @@ import getProjects from './projects';
 import { Project } from '@/lib/types';
 import { ProjectsSection } from './ProjectsSection';
 import ProjectsGrid from './ProjectsGrid';
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  title: "Projects",
+  description: "Projects and programmes of the Ministry of Housing & Urban Development, Imo State Government.",
+  path: "/projects",
+});
+
 
 type Stat = { value: string; label: string };
 const stats: Stat[] = [

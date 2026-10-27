@@ -6,6 +6,14 @@ import EventsList from './EventsList';
 import {Events} from '@/lib/types';
 import getEvents from './events';
 import CtaGradientBlock from '@/components/CtaGradientBlock';
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  title: "Events",
+  description: "Events organised by the Ministry of Housing & Urban Development, Imo State Government.",
+  path: "/events",
+});
+
 
 export default async function EventsPage() {
   const events = await getEvents(); 

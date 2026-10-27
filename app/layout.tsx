@@ -2,6 +2,7 @@ export const dynamic = "force-dynamic";
 
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { buildRootMetadata, jsonLd, organizationJsonLd } from "@/lib/seo";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,13 +15,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   title: "Ministry of Housing and Urban Development",
   description: "We deliver affordable and sustainable housing solutions through strategic partnerships, policy reform, and urban regeneration.",
   icons: {
     icon: "/logo.png",   // Path relative to /public
   },
 };
+
+export const metadata = buildRootMetadata(baseMetadata);
+
 
 export default function RootLayout({
   children,
@@ -32,6 +36,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(organizationJsonLd) }} />
         {children}
       </body>
     </html>

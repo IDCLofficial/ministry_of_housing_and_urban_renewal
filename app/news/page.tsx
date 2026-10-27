@@ -6,6 +6,14 @@ import CtaGradientBlock from '@/components/CtaGradientBlock';
 import NewsHero from './NewsHero';
 import NewsClient from './NewsClient';  
 import { getCategories} from './news';
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  title: "News",
+  description: "Latest news, announcements and updates from the Ministry of Housing & Urban Development, Imo State.",
+  path: "/news",
+});
+
 
 const languages = [
   { code: 'en', name: 'English' },

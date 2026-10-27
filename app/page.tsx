@@ -11,6 +11,14 @@ import CtaGradientBlock from '@/components/CtaGradientBlock';
 import Footer from '@/components/Footer'
 import HomeClient from '@/components/HomeClient';
 import { contentfulService } from '@/lib/contentful';
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  title: { absolute: "Ministry of Housing & Urban Development | Imo State Government" },
+  description: "Official website of the Ministry of Housing & Urban Development, Imo State Government: services, departments, projects, news and events.",
+  path: "/",
+});
+
 // Hero data
 const heroData = {
   title: 'Ministry of Housing and Urban Development',

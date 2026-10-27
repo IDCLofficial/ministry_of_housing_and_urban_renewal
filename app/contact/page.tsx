@@ -3,6 +3,14 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ContactHero from './ContactHero';
 import ContactSection from './ContactSection';
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  title: "Contact Us",
+  description: "Contact the Ministry of Housing & Urban Development, Imo State Government: office location and ways to reach the ministry.",
+  path: "/contact",
+});
+
 
 export default function ContactPage() {
   const languages = [

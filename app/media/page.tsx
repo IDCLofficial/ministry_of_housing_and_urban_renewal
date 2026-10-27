@@ -7,6 +7,14 @@ import MediaGallery from './MediaGallery';
 import getMedia from './media';
 import { Media } from '@/lib/types';
 import Link from 'next/link';
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  title: "Media Gallery",
+  description: "Photo and media gallery of the Ministry of Housing & Urban Development, Imo State Government.",
+  path: "/media",
+});
+
 
 
 const cta = {

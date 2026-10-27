@@ -3,6 +3,14 @@ import Footer from '@/components/Footer';
 import DepartmentsHero from '@/components/DepartmentsHero';
 import DepartmentsStructure from '@/components/DepartmentsStructure';
 import CtaGradientBlock from '@/components/CtaGradientBlock';
+import { pageMetadata } from "@/lib/seo";
+
+export const metadata = pageMetadata({
+  title: "Departments",
+  description: "Departments and units of the Ministry of Housing & Urban Development, Imo State Government.",
+  path: "/departments",
+});
+
 
 export default function DepartmentsPage() {
 
