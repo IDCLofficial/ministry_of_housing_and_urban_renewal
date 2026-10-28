@@ -6,8 +6,8 @@ import CtaGradientBlock from '@/components/CtaGradientBlock';
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Departments",
-  description: "Departments and units of the Ministry of Housing & Urban Development, Imo State Government.",
+  title: "Housing, Urban Renewal and Estate Management",
+  description: "Housing projects and development, urban renewal, estate management and mortgage and home ownership departments of the Imo State Ministry of Housing.",
   path: "/departments",
 });
 

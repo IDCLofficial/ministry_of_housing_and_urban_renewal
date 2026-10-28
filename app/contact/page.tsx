@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   title: "Contact Us",
-  description: "Contact the Ministry of Housing & Urban Development, Imo State Government: office location and ways to reach the ministry.",
+  description: "Contact the Ministry of Housing and Urban Development, Imo State Government: office location and ways to reach the ministry.",
   path: "/contact",
 });
 

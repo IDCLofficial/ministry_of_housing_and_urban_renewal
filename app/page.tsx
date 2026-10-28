@@ -14,8 +14,8 @@ import { contentfulService } from '@/lib/contentful';
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: { absolute: "Ministry of Housing & Urban Development | Imo State Government" },
-  description: "Official website of the Ministry of Housing & Urban Development, Imo State Government: services, departments, projects, news and events.",
+  title: { absolute: "Imo State Ministry of Housing and Urban Development" },
+  description: "Affordable housing, urban renewal, estate management and mortgage and home ownership programmes from the Imo State Ministry of Housing and Urban Development.",
   path: "/",
 });
 

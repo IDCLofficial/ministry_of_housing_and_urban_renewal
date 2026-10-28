@@ -10,7 +10,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   title: "News",
-  description: "Latest news, announcements and updates from the Ministry of Housing & Urban Development, Imo State.",
+  description: "Latest news, announcements and updates from the Ministry of Housing and Urban Development, Imo State.",
   path: "/news",
 });
 
